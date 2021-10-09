@@ -1,0 +1,118 @@
+.btn>[class*=fa-],
+.btn [class*=glyphicon-] {
+	display: inline-block;
+}
+.text-left {
+    text-align: left !important;
+}
+.red {
+	color: red;
+}
+.phone-group {
+	display: flex;
+}
+.overLayLoading {
+	background: #e5e5e5;
+	z-index: 1000;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+.overLayLoading .fa-spinner {
+	margin-top: 150px;
+	font-size: 30px;
+}
+.btnChangeStatus,
+.btnChangeStatusReview{
+	cursor: pointer;
+}
+.table-mini-style .table-wrap-data tr > td{
+	vertical-align: middle;
+	padding: 10px;
+
+}
+.table-mini-style .table-wrap-data > tr > td{
+	padding: 0;
+}
+.table-mini-style .table-inside-td-mini-style tbody tr > td{
+	padding-top: 5px;
+	padding-bottom: 5px;
+	height: 50px;
+}
+.table-inside-td-mini-style tbody tr:not(:last-child) {
+	border-bottom: 1px solid #e5e5e5;
+}
+.table-inside-td-mini-style{
+	width: 100%;
+}
+.border-b > div{
+	width: 100%;
+	border-bottom: 1px dotted #ccc;
+	height: 22px;
+}
+.mt-12 {
+	margin-top: 12px!important;
+}
+.banner-group td {
+	background: #dfdaca;
+    color: #d15050;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+#UserAvatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 1px solid #0d6c9a;
+    float: left;
+}
+#FilterForm .form-group {
+	margin-top: 5px;
+}
+#invoiceDetailTable {
+    border-collapse: collapse;
+}
+
+#invoiceDetailTable td {
+    position: relative;
+    padding: 5px 10px;
+}
+
+#invoiceDetailTable tr.out-stock td {
+    text-decoration: line-through;
+    color: grey;
+}
+
+/** reorder**/
+table#table-units.dt-rowReorder-float,
+table#table-categories.dt-rowReorder-float,
+table#table-category.dt-rowReorder-float{
+    position:absolute !important;
+    opacity:0.8;
+    table-layout:fixed;
+    outline:2px solid #888;
+    outline-offset:-2px;
+    z-index:2001
+}
+#table-units tr.dt-rowReorder-moving,
+#table-categories tr.dt-rowReorder-moving,
+#table-category tr.dt-rowReorder-moving{
+    outline:2px solid #555;
+    outline-offset:-2px
+}
+#table-units body.dt-rowReorder-noOverflow,
+#table-categories body.dt-rowReorder-noOverflow,
+#table-category body.dt-rowReorder-noOverflow{
+    overflow-x:hidden
+}
+table#table-units.dataTable td.sorting_1,
+table#table-categories.dataTable td.sorting_1,
+table#table-category.dataTable td.sorting_1{
+    cursor:move
+}
+
+/* end reorder */
+#select2User {
+    position: relative;
+}
